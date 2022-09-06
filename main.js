@@ -1,5 +1,5 @@
 let videolist = ["น่ารัก.mp4","นะโม love pussy.mp4","เต้นโหด.mp4","เต้นกาก.mp4","คนโหด.mp4","นิก vs นะโม.mp4","รวมต๊ะ.mp4","นะโมโหด.mp4","20220818_133551.mp4", "Baki.mp4","gumball.mp4" ,"เป่าโหด.mp4"];
-let xvideo = ["spiderfuck.mov","ยัดตูด.mp4","tree fuck.mov","gay1.mp4","fuck bread.mp4","mmm.mp4","gay.mp4"];
+let xvideo = ["เย็ด แตงโม.mp4","spiderfuck.mov","ยัดตูด.mp4","tree fuck.mov","gay1.mp4","fuck bread.mp4","mmm.mp4","gay.mp4"];
 let insertvideo = document.getElementById("nick");
 
 let output = "";
