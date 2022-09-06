@@ -1,0 +1,121 @@
+body {
+    font-size: 15pt;
+}
+
+.bigbox{
+   border: 0;
+   padding: 0px;
+   text-align: center;
+}
+.name{
+   border: solid 2px #480EB0;
+   padding: 0px 0px;
+   border-radius: 10px;
+   background-image: linear-gradient(315deg, rgba(122, 121, 125, 0.74) 34%, rgba(72, 14, 176, 1) 100%);
+}
+.headerbar{
+   color: white;
+   font-family: 'Antonio', sans-serif;
+   letter-spacing: px;
+}
+.statusbar{
+   margin: 10px 0px;
+   font-size: 10px;
+   border: solid 2px black;
+   border-radius: 7px;
+   padding: 0px 8px;
+   width: 50px;
+   opacity: 0.5;
+   
+}
+video{
+   width: 352px;
+   height: 180px;
+   border-radius: 10px;
+   background-color: black;
+}
+.grid{
+   display: grid;
+   grid-template-rows: 70px auto ;
+   grid-template-areas: 
+   'headerbar searchbar btn1'
+   ;
+   column-gap: 0px;
+   row-gap: 0px;
+   justify-items: center;
+   padding: 10px 30px;
+}
+
+.headerbar{
+   grid-area: headerbar;
+}
+.searchbar{
+   grid-area: searchbar;
+   height: 30px;
+   padding: 10px 8px;
+   width: 120px;
+   border-radius: 10px;
+   outline-color: #480EB0;
+   border-color: white;
+}
+.searchbar{
+   margin-top: 10px;
+   border-style: solid;
+   background: #424044;
+}
+.btn1{
+   grid-area: btn1;
+   border-radius:10px;
+   padding: 0px 0px;
+   height: 55px;
+   width:70px;
+   margin-top: 10px;
+   text-align: center;
+   font-size: 10px;
+   font-weight: bold;
+   box-sizing: border-box;
+}
+.searchall{
+   margin-left: 10px;
+}
+.btn1{
+   color: white;
+   content: "";
+   background: #424044;
+   border: none;
+   position: relative;
+   transition: all 0.25 ease;
+   font-family: 'Noto Sans Thai Looped', sans-serif;
+}
+.btn1:active{
+   background-color: #5206C8;
+}
+
+.searchbar{
+   color: white
+}
+
+h3{
+   color: white;
+}
+.x{
+   font-size: 10px;
+}
+.x{
+   text-align: left;
+   background: white;
+   padding-left: 0px;
+   margin-bottom: 30px;
+}
+.secondbox{
+   padding-top: 20px;
+   top: 0;
+   background: white;
+   position: fixed;
+   z-index: 1;
+   padding-left: 20px;
+}
+.videoall{
+   margin-top: 45%;
+   padding-left: 20px;
+}
