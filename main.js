@@ -38,7 +38,7 @@ function Searchvideo(){
    input=input.toLowerCase();
    let x = document.getElementsByClassName("videopagetag");
    let c = document.getElementsByClassName("videopagename");
-   if (input === "spidermannowayhome") {
+   if (input === "fuckme#") {
       for (var i = 0; i < x.length; i++) {
          x[i].style.display="none";
          c[i].style.display="none";
