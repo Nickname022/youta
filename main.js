@@ -45,7 +45,6 @@ function Searchvideo(){
       }
       Showxvideo();
    }else{
-   Showvideo();
    for (var i = 0; i < x.length; i++) {
       if (!x[i].id.toLowerCase().includes(input) ) {
          x[i].style.display="none";
