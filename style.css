@@ -53,10 +53,11 @@ video{
    grid-area: searchbar;
    height: 30px;
    padding: 10px 8px;
-   width: 120px;
+   width: 140px;
    border-radius: 10px;
    outline-color: #480EB0;
    border-color: white;
+text-align:center;,
 }
 .searchbar{
    margin-top: 10px;
